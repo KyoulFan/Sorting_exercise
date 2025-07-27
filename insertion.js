@@ -1,3 +1,5 @@
+// Key: Use current to store the value need to be moved,
+// and use pointer j to find from right to left
 function insertionSort(arr) {
   for (let i = 0; i < arr.length; i++) {
     let current = arr[i];
